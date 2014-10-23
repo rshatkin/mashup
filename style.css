@@ -1,0 +1,154 @@
+.collection-instagram-wrapper {
+  width: 870px;
+  height: 293px;
+  position: relative;
+  clear: both;
+  background-image: url("instagram_widg_border.jpg");
+  background-repeat: no-repeat;
+  padding-left: 55px;
+  padding-right: 55px;
+  margin-bottom: 20px;
+} 
+
+.section-name{
+  font-family: helvetica;
+  font-style: bold;
+  font-size: 13px;
+  letter-spacing: 1px;
+  color: #f75352;
+  position: relative;
+  bottom: 6px;
+  left: -10px;
+  margin-bottom: 8px;
+  background-color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 93px;
+}
+
+.headline {
+  font-family: helvetica;
+  font-size: 21px;
+  letter-spacing: .6px;
+  color: #f75352;
+  margin: 12px 0 0 0;    
+}
+
+.headline span{
+  font-family: helvetica;
+  font-style: bold;
+  margin-right: 5px;
+  letter-spacing: .75px;
+}
+
+.instagram-nav-wrap{
+  position: absolute;
+  z-index: 10;
+  width: 940px;
+  top: 150px;
+  left: 20px;
+  font-family: helvetica;
+  overflow: hidden;
+} 
+
+.nav.left {
+  cursor: pointer;
+  color: #000;
+  float: left;
+}
+
+.nav.right {
+  cursor: pointer;
+  color: #000;
+  float: right;
+}
+
+.nav:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+
+.collection-instagram-module{
+  position: relative;
+  z-index: 20;
+  width: 870px;
+  margin: 22px 0 16px;    
+  overflow: hidden;
+}
+
+.collection-img-wrapper{
+  width: 885px;
+  height: 162px;
+  overflow: hidden;    
+}
+
+.instagram-imgs{
+  list-style: none;
+  min-width: 885px;
+  height: 190px;
+  margin: 0;    
+  padding: 0;    
+  line-height: normal;
+}
+
+.instagram-imgs li{
+  display: block;
+  float: left;
+  width: 162px;
+  height: 162px;          
+  margin-right: 15px;
+}
+
+ .instagram-imgs img{
+  width: 162px;
+  height: 162px;
+}      
+
+.social-stats{
+  font-family: helvetica;
+  text-align: right;            
+  position: relative;
+  bottom: 34px;
+  font-size: 12px;
+  letter-spacing: .5px;
+  line-height: normal;
+  color: black;
+}
+
+div.social-stats{
+  display: inline-block;
+  margin: 10px 0 0 10px;
+  line-height: 1;
+}
+
+span.social-stats{
+  font-family: helvetica;
+  margin-left: 5px;
+  vertical-align: top;
+  opacity: .8;
+  font-size: 12px;
+}
+
+.overlay{
+  background-color: rgba(247,83,82,0.8);
+  width: 162px;
+  height: 30px;
+  position: relative;
+  bottom: 33px;
+}
+  
+h2.overlay{
+  color: white;
+  padding-top: 7px;
+  margin: 0;
+  text-align: center;
+  font-family: helvetica;
+  font-size: 13px;
+  letter-spacing: 1px;
+  line-height: normal;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
