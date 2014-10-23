@@ -1,8 +1,26 @@
-<!DOCTYPE html>
 <html>
   <head>
-    <title>Mashup</title>
+    <title>INSTAGRAM AGGREGATOR</title>
+    <script src="jquery.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script src="carousel.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
+    <div class="collection-instagram-wrapper" data-aggregator-id="https://api.instagram.com/v1/media/popular?client_id=ce95cb4e56c146c994457b48a839f6a8">
+      <span class="section-name">INSTAGRAM</span>
+
+      <h2 class="headline">My Instagram Aggregator</h2>
+
+      <div class="instagram-nav-wrap">
+        <span class="left nav disabled"><</span>
+        <span class="right nav">></span>
+      </div>
+      <div class="collection-instagram-module">
+        <div class="collection-img-wrapper">
+          <ul class="instagram-imgs"></ul>
+        </div>  
+      </div>
+    </div>
   </body>
 </html>
